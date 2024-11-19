@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Card Balance Checker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 300px;
+        }
+        #output {
+            margin-top: 20px;
+            max-height: 200px;
+            overflow-y: auto;
+            border: 1px solid #ccc;
+            padding: 5px;
+        }
+        button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gift Card Balance Checker</h1>
+    <input type="file" id="fileInput" accept=".txt" />
+    <button id="startButton">Start</button>
+    <button id="downloadButton">Download Output</button>
+    <div id="output"></div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
